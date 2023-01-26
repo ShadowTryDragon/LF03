@@ -21,7 +21,7 @@ public class Adresse {
     }
 
     public void setHausNr (String hausNr){
-        hausNr = hausNr;
+        this.hausNr = hausNr;
     }
 
     public String getOrt () {

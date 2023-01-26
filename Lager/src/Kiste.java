@@ -27,8 +27,8 @@ public class Kiste extends Behaelter {
     public String toString() {
        String text;
        text = super.toString();
-        text = "\n\t" + "Breite der Kiste: " + breite;
-        text = "\n\t" + "Länge der Kiste: " + laenge;
+        text = text + "\n\t" + "Breite der Kiste: " + breite;
+        text = text + "\n\t" + "Länge der Kiste: " + laenge;
        return  text;
     }
 }

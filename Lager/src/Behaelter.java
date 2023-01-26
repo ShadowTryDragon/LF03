@@ -43,9 +43,9 @@ public abstract class Behaelter {
     public String toString() {
         String text;
          text = "BehälterNr: " + behaelterNr;
-         text = "\n\t" + "Behältergewicht: " + gewichtBehaelter;
-         text = "\n\t" + "gewicht des Inhalts: " + gewichtInhalt;
-         text = "\n\t" + "Maximales Gewicht: " + gewichtInhaltMax;
+         text = text +  "\n\t" + "Behältergewicht: " + gewichtBehaelter;
+         text = text +  "\n\t" + "gewicht des Inhalts: " + gewichtInhalt;
+         text = text + "\n\t" + "Maximales Gewicht: " + gewichtInhaltMax;
         return text;
     }
 }

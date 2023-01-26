@@ -17,7 +17,7 @@ public class Tonne extends Behaelter {
     public String toString() {
         String text;
         text = super.toString();
-        text = "\n\t" + "Durchmesser der Tonne: " + durchmesser;
+        text = text + "\n\t" + "Durchmesser der Tonne: " + durchmesser;
         return text;
     }
 }

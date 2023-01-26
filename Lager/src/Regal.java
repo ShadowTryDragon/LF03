@@ -49,4 +49,3 @@ public double getGewichtGesamt() {
         return text;
     }
 }
-
