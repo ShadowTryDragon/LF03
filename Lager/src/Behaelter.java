@@ -48,4 +48,5 @@ public abstract class Behaelter {
          text = text + "\n\t" + "Maximales Gewicht: " + gewichtInhaltMax;
         return text;
     }
+
 }
