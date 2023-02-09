@@ -2,5 +2,8 @@ package Fahrzeuge.Luft;
 
 public interface Fluggeraete {
 
-    void fliegen();
+
+    void bezeichnung();
+    void kennung();
+    void Typ();
 }

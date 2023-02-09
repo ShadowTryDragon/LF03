@@ -8,10 +8,19 @@ import waffen.Geschuetz;
 public class Kampfjet implements Fluggeraete, Bomben, Geschuetz {
 
 
+    @Override
+    public void bezeichnung() {
+        System.out.println("A10 - Thunderbolt");
+    }
 
     @Override
-    public void fliegen() {
+    public void kennung() {
+        System.out.println("A10-55K");
+    }
 
+    @Override
+    public void Typ() {
+        System.out.println("Militärflugzeug");
     }
 
     @Override
@@ -31,11 +40,11 @@ public class Kampfjet implements Fluggeraete, Bomben, Geschuetz {
 
     @Override
     public void kaliber() {
-
+       System.out.println("50");
     }
 
     @Override
     public void anzahlMontiert() {
-
+        System.out.println("3");
     }
 }
