@@ -1,3 +1,5 @@
+package objects;
+
 public abstract class Behaelter {
     private String behaelterNr;
     private double gewichtBehaelter;

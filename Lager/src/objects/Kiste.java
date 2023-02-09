@@ -1,3 +1,7 @@
+package objects;
+
+import objects.Behaelter;
+
 public class Kiste extends Behaelter {
     public double laenge;
     public double breite;
@@ -27,8 +31,8 @@ public class Kiste extends Behaelter {
     public String toString() {
        String text;
        text = super.toString();
-        text = text + "\n\t" + "Breite der Kiste: " + breite;
-        text = text + "\n\t" + "Länge der Kiste: " + laenge;
+        text = text + "\n\t" + "Breite der objects.Kiste: " + breite;
+        text = text + "\n\t" + "Länge der objects.Kiste: " + laenge;
        return  text;
     }
 }

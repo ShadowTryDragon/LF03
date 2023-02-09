@@ -1,3 +1,5 @@
+package objects;
+
 public class Adresse {
 
     private String strasse;

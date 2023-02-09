@@ -1,3 +1,7 @@
+package objects;
+
+import objects.Behaelter;
+
 public class Tonne extends Behaelter {
     private double durchmesser;
     public Tonne(String behaelterNr, double gewichtBehaelter, double gewichtInhalt, double gewichtInhaltMax, double durchmesser) {
@@ -17,7 +21,7 @@ public class Tonne extends Behaelter {
     public String toString() {
         String text;
         text = super.toString();
-        text = text + "\n\t" + "Durchmesser der Tonne: " + durchmesser;
+        text = text + "\n\t" + "Durchmesser der objects.Tonne: " + durchmesser;
         return text;
     }
 }
