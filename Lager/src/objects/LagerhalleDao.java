@@ -17,6 +17,7 @@ public class LagerhalleDao {
     public void insert(Lagerhalle lagerhalle) throws LagerVorhandenExeption {
         if (lagerhalleMap.containsKey(lagerhalle.getLagerID()))
             throw new LagerVorhandenExeption(lagerhalle.getLagerID());
+        lagerhalleMap.put(lagerhalle.getLagerID(), lagerhalle);
     }
     public Lagerhalle findById(String lagerID) throws LagerhalleNichtVorhandenExeption {
         if (!lagerhalleMap.containsKey(lagerID)) {
