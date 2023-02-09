@@ -1,9 +1,28 @@
 package Fahrzeuge.Luft;
 
-public class Flugzeug extends Fluggeraete {
+
+import Fahrzeuge.Fahrzeuge;
+
+public class Flugzeug implements Fluggeraete, Fahrzeuge {
+
+
     @Override
     public void fliegen() {
-        System.out.println("Wmmmmmmm");
+
     }
 
+    @Override
+    public void farbe() {
+
+    }
+
+    @Override
+    public void Marke() {
+
+    }
+
+    @Override
+    public void Model() {
+
+    }
 }

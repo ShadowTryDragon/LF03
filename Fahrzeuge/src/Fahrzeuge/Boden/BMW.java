@@ -1,20 +1,19 @@
 package Fahrzeuge.Boden;
-
 import Fahrzeuge.Fahrzeuge;
 
-public class Laster implements Fahrzeuge {
+public class BMW implements Fahrzeuge {
     @Override
     public void farbe() {
-
+        System.out.println("Rot");
     }
 
     @Override
     public void Marke() {
-        System.out.println("Mercedes");
+        System.out.println("BMW");
     }
 
     @Override
     public void Model() {
-        System.out.println("Actros");
+        System.out.println("M8 Competition");
     }
 }
