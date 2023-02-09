@@ -1,21 +1,20 @@
-package Fahrzeuge.Luft;
+package Luftfahrzeuge;
 
-public class Passagierflugzeug implements Fluggeraete {
+public class NachrichtenHeli implements Fluggeraete {
 
     @Override
     public void bezeichnung() {
-        System.out.println("Bojing 707");
+        System.out.println("MBB/ Eurocopter BO 105");
 
     }
 
     @Override
     public void kennung() {
-        System.out.println("B0707-A100");
+        System.out.println("BO105-N");
     }
 
     @Override
     public void Typ() {
         System.out.println("Zivil");
-
     }
 }

@@ -1,4 +1,4 @@
-package waffen;
+package Waffen;
 
 public interface Bomben {
     void bombenart();

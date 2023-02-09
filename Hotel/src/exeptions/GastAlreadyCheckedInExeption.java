@@ -10,6 +10,6 @@ public class GastAlreadyCheckedInExeption extends Exception {
     }
 
     public String getMessage() {
-        return gast.getVorname() + " " + gast.getNachname() + " ist bereits eingechecked.";
+        return gast.getVorname() + " " + gast.getNachname() + " ist bereits eingechecked. um informationen über " + gast.getVorname() + " " + gast.getNachname() + "zu erhalten geben sie die Infos ein";
     }
 }

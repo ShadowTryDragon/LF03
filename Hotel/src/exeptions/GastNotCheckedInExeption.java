@@ -10,6 +10,6 @@ public class GastNotCheckedInExeption extends Exception {
     }
 
     public String getMessage() {
-        return gast.getVorname() + " " + gast.getNachname() + " ist nicht eingechecked";
+        return gast.getVorname() + " " + gast.getNachname() + " ist nicht eingechecked bitte überprüfe ob du vielleicht einen Tippfehler hattest";
     }
 }

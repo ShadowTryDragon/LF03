@@ -1,4 +1,4 @@
-package Fahrzeuge.Luft;
+package Luftfahrzeuge;
 
 public interface Fluggeraete {
 
