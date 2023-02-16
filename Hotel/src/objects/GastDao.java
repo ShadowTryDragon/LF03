@@ -27,7 +27,7 @@ public class GastDao {
      * Ruft einen bestimmten Gast ab.
      * @param gastNr    Die GastNr des gewünschten Gastes.
      * @return  Der gewünschte Gast.
-     * @throws GastNichtVorhandenException  Falls kein Gast mit der gegebenen GastNr vorhanden ist.
+     * @throws GastNichtVorhandenException Falls kein Gast mit der gegebenen GastNr vorhanden ist.
      */
     public Gast findById(int gastNr) throws GastNichtVorhandenException {
         if (!gastMap.containsKey(gastNr)) {
@@ -47,7 +47,7 @@ public class GastDao {
     /**
      * Ändert die Daten eines bestehenden Gastes.
      * @param gast  Die neuen Daten des Gastes.
-     * @throws GastNichtVorhandenException  Falls kein Gast mit der gegebenen GastNr vorhanden ist.
+     * @throws GastNichtVorhandenException Falls kein Gast mit der gegebenen GastNr vorhanden ist.
      */
     public void update(Gast gast) throws GastNichtVorhandenException {
         if (!gastMap.containsKey(gast.getGastNr())) {

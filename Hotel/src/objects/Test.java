@@ -7,7 +7,9 @@ import java.util.List;
 
 
 public class Test {
-    public static void main(String[] args)  {
+    public static void main(String[] args) {
+
+
 
 
         Adresse a1 = new Adresse("Drosselstraße", "11a", "28239", "Bremen");
@@ -46,6 +48,6 @@ public class Test {
         }
 catch (GastNichtVorhandenException e) {
     System.out.println(e.getMessage());
-}
-}
+     }
     }
+}
