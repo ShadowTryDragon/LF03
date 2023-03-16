@@ -9,7 +9,10 @@ public class GastNotCheckedInExeption extends Exception {
         this.gast = gast;
     }
 
+    @Override
     public String getMessage() {
-        return gast.getVorname() + " " + gast.getNachname() + " ist nicht eingechecked bitte überprüfe ob du vielleicht einen Tippfehler hattest";
+        System.out.println( gast.getVorname() + " " + gast.getNachname() + " ist nicht eingechecked bitte überprüfe ob du vielleicht einen Tippfehler hattest");
+        return super.getMessage();
     }
 }
+

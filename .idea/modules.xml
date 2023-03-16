@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Einstellungen/Einstellungen.iml" filepath="$PROJECT_DIR$/Einstellungen/Einstellungen.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hotel/Hotel.iml" filepath="$PROJECT_DIR$/Hotel/Hotel.iml" />
       <module fileurl="file://$PROJECT_DIR$/LF03.iml" filepath="$PROJECT_DIR$/LF03.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lager/Lager.iml" filepath="$PROJECT_DIR$/Lager/Lager.iml" />

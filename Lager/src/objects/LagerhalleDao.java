@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 
-public class LagerhalleDao {
+public class LagerhalleDao implements Dao {
 
     private Map<String, Lagerhalle> lagerhalleMap = new HashMap<>();
 

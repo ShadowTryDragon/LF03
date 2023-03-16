@@ -7,15 +7,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class GastDao {
+public class GastDao implements Dao {
 
     private Map<Integer, Gast> gastMap = new HashMap<>();
 
-    /**
-     * Fügt einen neuen Gast hinzu.
-     * @param gast  Der hinzuzufügende neue Gast.
-     * @throws exeptions.GastNichtVorhandenException   Falls bereits ein Gast mit der GastNr vorhanden ist.
-     */
+
+     // Fügt einen neuen Gast hinzu.
+     // @param gast der hinzuzufügende neue Gast.
+     // @throws exeptions. GastNichtVorhandenException Falls bereits ein Gast mit der GastNr vorhanden ist.
+
     public void insert(Gast gast) throws GastVorhandenExeption {
         if (gastMap.containsKey(gast.getGastNr())) {
             throw new GastVorhandenExeption(gast.getGastNr());
