@@ -2,7 +2,6 @@ package objects;
 
 import exeptions.LagerVorhandenExeption;
 import exeptions.LagerhalleNichtVorhandenExeption;
-
 import java.util.List;
 
 public interface Dao {
