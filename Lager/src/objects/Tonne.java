@@ -4,8 +4,8 @@ import objects.Behaelter;
 
 public class Tonne extends Behaelter {
     private double durchmesser;
-    public Tonne(String behaelterNr, double gewichtBehaelter, double gewichtInhalt, double gewichtInhaltMax, double durchmesser) {
-        super(behaelterNr, gewichtBehaelter, gewichtInhalt, gewichtInhaltMax);
+    public Tonne(String behaelterNr, double gewichtBehaelter, double gewichtInhalt,double hoehe, double gewichtInhaltMax, double durchmesser) {
+        super(behaelterNr, gewichtBehaelter, hoehe, gewichtInhalt, gewichtInhaltMax);
         this.durchmesser = durchmesser;
     }
 

@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class Regal {
     Lagerhalle lagerhalle;
-    ArrayList<Behaelter> behaelterListe;
+    private ArrayList<Behaelter> behaelterListe;
     public Regal(Lagerhalle lagerhalle) {
         this.lagerhalle = lagerhalle;
         behaelterListe = new ArrayList<Behaelter>();

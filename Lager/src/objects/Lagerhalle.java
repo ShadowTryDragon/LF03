@@ -5,10 +5,9 @@ public class Lagerhalle {
     Adresse adresse;
     private String name;
     private String lagerID;
-    public Lagerhalle(String lagerID, String name, Adresse adresse) {
+    public Lagerhalle(String name, Adresse adresse) {
         this.name = name;
         this.adresse = adresse;
-        this.lagerID = lagerID;
     }
 
     public String getName() {
@@ -21,14 +20,6 @@ public class Lagerhalle {
 
     public Adresse getAdresse() {
         return adresse;
-    }
-
-    public String getLagerID() {
-        return lagerID;
-    }
-
-    public void setLagerID(String lagerID) {
-        this.lagerID = lagerID;
     }
 
     public void setAdresse(Adresse adresse) {

@@ -17,6 +17,7 @@ public class Test {
         Gast g1 = new Gast(1331, "Peter", "Eduard", a1);
         Gast g2 = new Gast(1332, "Joachim","Scheizer", a2);
 
+
         GastDao gastDao = new GastDao();
         List<Gast> gastListe;
         System.out.println("--------------------------------");

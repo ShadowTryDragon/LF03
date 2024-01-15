@@ -5,8 +5,8 @@ import objects.Behaelter;
 public class Kiste extends Behaelter {
     public double laenge;
     public double breite;
-    public Kiste(String behaelterNr, double gewichtBehaelter, double gewichtInhalt, double gewichtInhaltMax, double laenge, double breite) {
-        super(behaelterNr, gewichtBehaelter, gewichtInhalt, gewichtInhaltMax);
+    public Kiste(String behaelterNr, double gewichtBehaelter, double gewichtInhalt, double hoehe, double gewichtInhaltMax, double laenge, double breite) {
+        super(behaelterNr, gewichtBehaelter, gewichtInhalt,hoehe, gewichtInhaltMax);
         this.breite = breite;
         this.laenge = laenge;
     }

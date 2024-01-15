@@ -5,12 +5,23 @@ public abstract class Behaelter {
     private double gewichtBehaelter;
     private double gewichtInhaltMax;
     private double gewichtInhalt;
-    public Behaelter( String behaelterNr, double gewichtBehaelter, double gewichtInhalt, double gewichtInhaltMax) {
+
+    private double hoehe;
+    public Behaelter( String behaelterNr, double gewichtBehaelter, double gewichtInhalt, double hoehe, double gewichtInhaltMax) {
         this.behaelterNr = behaelterNr;
         this.gewichtBehaelter = gewichtBehaelter;
         this.gewichtInhalt = gewichtInhalt;
         this.gewichtInhaltMax = gewichtInhaltMax;
+        this.hoehe = hoehe;
 
+    }
+
+    public double getHoehe() {
+        return hoehe;
+    }
+
+    public void setHoehe(double hoehe) {
+        this.hoehe = hoehe;
     }
 
     public String getBehaelterNr() {
@@ -47,6 +58,7 @@ public abstract class Behaelter {
          text = "BehälterNr: " + behaelterNr;
          text = text +  "\n\t" + "Behältergewicht: " + gewichtBehaelter;
          text = text +  "\n\t" + "gewicht des Inhalts: " + gewichtInhalt;
+        text = text + "\n\t" + "Höhe des Behäters: " + hoehe;
          text = text + "\n\t" + "Maximales Gewicht: " + gewichtInhaltMax;
         return text;
     }
